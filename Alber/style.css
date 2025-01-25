@@ -44,7 +44,7 @@
         #d{
             margin-left: 3%;
         }
-        pre{
+        .a{
             font-size: x-large;
             border-radius: 20px;
             border: 3px solid black;
@@ -58,15 +58,48 @@
         body{
             background-color: rgb(22, 16, 44);
         }
-        #ID1{
-            /* background-color: white; */
-            padding: 20px 20px 60px 20px;
-            /* margin-left: 3%; */
-            
+        .sec{
+            background-color: white;
+            padding: 35px 0px 40px 15px;
+            margin-left: 3%;
+            display: inline-block;
+            border-radius: 5%;
+            border: 5px solid black;   
+            margin-top: 10px;
         }
         img{
             background-color: white;
-            /* padding: 10px 20px 80px 20px; */
-            margin-left: 3%;
+            border-radius: 8%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .prse{
+            margin-right: 10px;
+            margin-bottom: 0px;
+            margin-top: 20px;
+        }
+        .hrse{
+            margin-right: 20px;
+        }
+        h2{
+            text-align: center;
+            margin-right: 10px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        /* ! */
+        /* footer */
+        footer{
+            background-color: black;
+            padding: 20px;
+            margin-top: 50px;
+            margin: 50px -10px -10px -10px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-top: 5px solid rgb(255, 166, 0);
+        }
+        #id1{
+            color: white;
+
         }
         /* ! */
