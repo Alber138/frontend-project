@@ -1,5 +1,9 @@
+        * {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
         /* Header */
-        header{
+        header {
             background-color: rgb(255, 166, 0);
             margin: -50px -10px 10px -10px;
             padding-bottom: 10px;
@@ -8,88 +12,140 @@
             border-bottom-right-radius: 50px;
             border-bottom-left-radius: 50px;
         }
-        h1{
+
+        h1 {
             color: rgb(0, 0, 0);
             text-align: center;
             font-size: 70px;
         }
-        ul{
-            display: inline-block;
-            list-style-type: none;
-        }
-        li{
-            list-style-type: none;
-        }
-        hr{
+
+        hr {
             border-bottom: 5px solid black;
         }
+
+        ul {
+            list-style: none;
+        }
+
         /* Links */
-        a{
-            font-size: x-large;
+        a {
+            font-size: large;
             text-decoration: none;
-            color: black;
+            color: rgba(0, 0, 0, 0.485);
+            text-align: center;
+            transition: color 0.3s;
         }
-        div{
-            display: inline;
+
+        a:hover{
+            color: #000000;
         }
-        #a{
-            margin-left: 28%;
+
+        .box {
+            transition-delay: 3s;
+            transition-property: open;
+            position: relative;
+            width: 175px;
+            margin: 0px 0px;
+            text-align: center;
         }
-        #b{
-            margin-left: 3%;
-        }
-        #c{
-            margin-left: 3%;
-        }
-        #d{
-            margin-left: 3%;
-        }
-        .a{
-            font-size: x-large;
-            border-radius: 20px;
-            border: 3px solid black;
+
+        .selected {
+            padding: 10px 50px;
+            border-radius: 25px;
             background-color: rgba(131, 89, 0, 0.577);
-            padding-top: 5px;
-            padding-bottom: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
         }
-        /* ! */
+
+        .options {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 10%;
+            width: 80%;
+            border: 1px solid #000000;
+            border-radius: 20px;
+            background-color: rgb(255, 174, 0);
+            padding: 0;
+            margin: 0;
+            z-index: 1000;
+        }
+
+        .options li {
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .options li:hover {
+            background-color: rgba(131, 89, 0, 0.577);
+            border-radius: 20px;
+            transition-delay:show 3s;
+        }
+        
+        .box:hover .options {
+            display: block;
+        }
+
+        .selected:hover {
+            background-color: rgba(193, 132, 0, 0.575);
+            border-radius: 20px;
+        }
+
+        div {
+            display: inline-block;
+        }
+
+        #div1{
+            margin-inline-start: 375px ;
+        }
+
         /* ! */
         /* Main */
-        body{
+        body {
             background-color: rgb(22, 16, 44);
+            margin: 0px;
+            padding: 10px;
         }
-        .sec{
+
+        .sec {
             background-color: white;
             padding: 35px 0px 40px 15px;
             margin-left: 3%;
             display: inline-block;
             border-radius: 5%;
-            border: 5px solid black;   
+            border: 5px solid black;
             margin-top: 10px;
         }
-        img{
+
+        img {
             background-color: white;
             border-radius: 8%;
             margin-left: 5%;
             margin-right: 5%;
         }
-        .prse{
+
+        .prse {
             margin-right: 10px;
             margin-bottom: 0px;
             margin-top: 20px;
         }
-        .hrse{
+
+        .hrse {
             margin-right: 20px;
         }
-        h2{
+
+        h2 {
             text-align: center;
             margin-right: 10px;
             margin-top: 0px;
             margin-bottom: 0px;
         }
+
         /* ! */
         /* footer */
-        footer{
+        footer {
             background-color: black;
             padding: 20px;
             margin-top: 50px;
@@ -98,8 +154,10 @@
             border-top-right-radius: 50px;
             border-top: 5px solid rgb(255, 166, 0);
         }
-        #id1{
+
+        #id1 {
             color: white;
 
         }
+
         /* ! */
