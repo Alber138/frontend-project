@@ -36,7 +36,7 @@
             transition: color 0.3s;
         }
 
-        a:hover{
+        a:hover {
             color: #000000;
         }
 
@@ -81,10 +81,17 @@
         .options li:hover {
             background-color: rgba(131, 89, 0, 0.577);
             border-radius: 20px;
-            transition-delay:show 3s;
         }
-        
+
+        .box .options {
+            display: none;
+            opacity: 0;
+            transition: opacity 3s;
+            /* transition: display 3s; */
+        }
+
         .box:hover .options {
+            opacity: 1;
             display: block;
         }
 
@@ -97,8 +104,8 @@
             display: inline-block;
         }
 
-        #div1{
-            margin-inline-start: 375px ;
+        #div1 {
+            margin-left: 400px;
         }
 
         /* ! */
@@ -146,18 +153,32 @@
         /* ! */
         /* footer */
         footer {
-            background-color: black;
+            background-color: rgb(255, 166, 0);
             padding: 20px;
             margin-top: 50px;
             margin: 50px -10px -10px -10px;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
-            border-top: 5px solid rgb(255, 166, 0);
+            border-top: 5px solid rgb(114, 78, 0);
+            /* position: relative; */
+        }
+
+        /* #footdiv{
+            background-color: rgb(255, 166, 0);
+            height: fit-content;
+            /* position: absolute; 
+        } */
+
+        .lid {
+            /* right:50px; */
+            margin-bottom: 10px;
+            /* display: inline; */
+            float: right;
+            /* background-color: rgb(255, 166, 0); */
         }
 
         #id1 {
-            color: white;
-
+            font-size: x-large;
         }
 
         /* ! */
